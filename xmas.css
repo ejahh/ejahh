@@ -168,13 +168,19 @@ body {
     }
 }
 
-@media screen and (min-width:300px) and (max-width:499px) {
+@media screen and (min-width:380px) and (max-width:500px) {
+    .footer img {
+        width: 400px;
+    }
+}
+
+@media screen and (min-width:300px) and (max-width:380px) {
     .footer img {
         width: 300px;
     }
 }
 
-@media screen and (min-width:54px) and (max-width:299px) {
+@media screen and (min-width:54px) and (max-width:300px) {
     .footer img {
         width: 100px;
     }
